@@ -163,7 +163,7 @@ html {
   animation-timing-function: ease-in-out;
 }
 
-@keyframes slideBg{
+/* @keyframes slideBg{
   0%{
     background-image: url('../img/slider/coldplay4.jpg');
   }
@@ -179,7 +179,7 @@ html {
   100%{
     background-image: url('../img/slider/coldplay4.jpg');
   }
-}
+} */
 
 #slider .text-content {
   position: absolute;
