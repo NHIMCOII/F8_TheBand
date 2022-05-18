@@ -1,0 +1,110 @@
+/* pc */
+@media(min-width:64em){
+    #header .mobile-menu-btn{
+        display: none;
+    }
+}
+
+/* tablet & mobile */
+@media(max-width:63.9375em){
+    #header .subnav li {
+        font-size: 16px;
+        padding: 5px;
+    }
+    
+    .btn{
+        padding: 15px 16px !important;
+        -webkit-appearance: none;
+        font-size: 16px;
+    }
+    .modal .modal-input,
+    .contact .form-control{
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .contact .contact-line{
+        line-height: 2;
+    }
+
+    .modal-container{
+        margin: 0 16px;
+    }
+}
+
+/* tablet */
+@media(min-width:46.25em) and (max-width:63.9375em){  
+    #header .mobile-menu-btn{
+        display: none;
+    }
+}
+
+/* mobile */
+@media(max-width:46.1875em){
+    #header .search-button{
+        display: none;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #nav > li{
+        display: block;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+        height: 46px;
+    }
+
+    #nav{
+        display: block;
+    }
+
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a{
+        color: white;
+        padding: 5px 41px;
+        line-height: 36px;
+    }
+
+    #slider .text-content{
+        display: none;
+    }
+
+    #content .member-item{
+        width: 100%;   
+        padding-top: 0; 
+        margin-bottom: 24px;   
+    }
+
+    #content .member-img{
+        width: 75%;
+    }
+
+    .tour-dates .city-ticket{
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .contact .fan-info,
+    .contact .contact-info{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .contact .mobile-box{
+        width: 100%;
+        margin-top: 8px;
+    }
+
+    .btn{
+        width: 100%;       
+    }
+
+}
+
